@@ -13,6 +13,7 @@ Create ROR vectors in order to match with external organizations in the Pure res
 - Put downloaded zip file in project folder next to the notebook file
 - Rename zip to 'ror-latest.zip'
 
-Then run the notebook cells one by one. Use cell 0 to delete existing tables and start over. After cell 6 check if all tables are filled correctly before proceeding. 
+Then run the notebook cells one by one. Use cell 0 to delete existing tables and start over. Step 1 installs the multilingual‑e5‑large model used for the embeddings. Make sure you have enough (GPU) memory to run the model; this notebook was developed on a mac with unified memory.
+After cell 6 check if all tables are filled correctly before proceeding. 
 
 This notebook will be updated with Pure external organization logic.
